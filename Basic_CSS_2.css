@@ -1,0 +1,14 @@
+p {
+	color: darkgreen;
+	background-color: orange;
+	font-size: large;
+	text-align: center;
+	text-shadow: 2px 2px skyblue;
+}
+h1 {
+	color:  darkblue;
+	background-color: lightyellow;
+	font-size: large;
+	text-align: center;
+	text-shadow: 2px 2px lightblue;
+}
