@@ -27,7 +27,7 @@ h1 {
     height: 100px;
     margin: 5px;
     border: 1px solid black;
-    border-radius: 25%
+    border-radius: 25%;
     cursor: pointer;
     transition: transform .5s case-in-out
 }
