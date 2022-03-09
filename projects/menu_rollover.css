@@ -7,7 +7,7 @@ body {
     top: 0;
     left: 0;
     height: auto;
-    width: 100%
+    width: 100%;
 }
 
 .menu-container {
@@ -41,8 +41,8 @@ body {
 }
 
 .menu li:hover {
-    background-color: #5EAFDF;
-    color: #fff;
+    background-color:#5EAFDF;
+    color:#fff;
 }
 
 .menu li:hover ul {
