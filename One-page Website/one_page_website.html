@@ -3,13 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title> House of Plants </title>
+		<link rel="stylesheet" href="one_page_website.css">
 	</head>
 	<body>
 
 		<!-- NAV -->
 		<div>
-			<div>
-				<ul>
+			<div class="menu-list">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>CONTACT FORM</li></a>
@@ -23,98 +24,98 @@
 			<div>
 				<div>
 					<span><h1 style="text-align:center; color:green">Plants and more plants!</h1></span>
+					<br>
+					<br>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
-				<h1>Gallery</h1>
-				<br>
-				<div>
+		<section id="gallery">
+			<div id="container">
+				<div class="flex-container">
 
 					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
-							<div>
-								<h2><em>Succulents</em></h2>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/succulents.jpg" alt="succulents">
+							<div class="photo-overlay">
+							<h1>Succulents</h1>
 							</div>
-							<img src="./images/succulents.jpg" alt="succulents" style="width:666px;height:500px">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 1 -->
 
 					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
-							<div>
-							<br>
-								<h2><em>Ferns</em></h2>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/ferns.jpg" alt="ferns">	
+							<div class="photo-overlay">
+							<h1>Ferns</h1>
 							</div>
-							<img src="./images/ferns.jpg" alt="ferns" style="width:666px;height:500px">	
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 2 -->
 
 					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
-							<div>
-							<br>
-								<h2><em>Philodendron</em></h2>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/philodendron.jpg" alt="philodendron">
+							<div class="photo-overlay">
+							<h1>Philodendron</h1>
 							</div>
-							<img src="./images/philodendron.jpg" alt="philodendron" style="width:666px;height:500px">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 3 -->
 
 					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
-							<div>
-							<br>
-								<h2><em>Alocasia</em></h2>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/alocasia.jpg" alt="alocasia">
+							<div class="photo-overlay">
+							<h1>Alocasia</h1>
 							</div>
-							<img src="./images/alocasia.jpg" alt="alocasia" style="width:666px;height:500px">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 4-->
 
 					<!-- PHOTO CONTAINER 5-->
-					<div>
-						<div>
-							<div>
-							<br>
-								<h2><em>Pothos</em></h2>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/pothos.jpg" alt="pothos">
+							<div class="photo-overlay">
+								<h1>Pothos</h1>
 							</div>
-							<img src="./images/pothos.jpg" alt="pothos" style="width:666px;height:500px">
 						</div>
 					</div>
 					<!-- END PHOTO CONTAINER 5 -->
 
 					<!-- PHOTO CONTAINER 6 -->
-					<div>
-						<div>
-							<div>
-							<br>	
-								<h2><em>Rare Plants</em></h2>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/rare.jpg" alt="rare">
+							<div class="photo-overlay">
+								<h1>Rare Plants</h1>
 							</div>
-							<img src="./images/rare.jpg" alt="rare" style="width:666px;height:500px">
-							<br>
-							<br>
-							<br>
-							<br>
-							<br>
 						</div>
 					</div>
 				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
 		</section>	
 					<!-- END PHOTO CONTAINER 6 -->
 
 
 		<body>
+			<br>
+			<br>
+			<br>
+			<br>
 			<p><h1 style="text-align:center"> Check out this video for plant care tips!</h1>
 			</p>
 			<center><iframe width="1020" height="630" src="https://www.youtube.com/embed/LZhnCxG5c6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
@@ -122,31 +123,31 @@
 		<br>
 
 	<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h3>CONTACT FORM</h3>
-					<div>
-						<h2><span>Sign up today and save 20% of your first order</span></h2>
-						<p>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">CONTACT FORM</h1>
+					<div class="reservation">
+						<h2><span>Sign up today and save 20% of your first order</span>
+						</h2>
+						<br>
+						<br>
+						<p class="rsvp-text">
 							Please provide us with your contact info below.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="" placeholder= "First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<br>
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<br>
-								<br>
-								<div>
+								 <div class="submit">
 									<input type="submit" value="Submit">
 								</div>
-								<br>
 							</form>
 						</div>
 					</div>
@@ -156,7 +157,7 @@
 		<!-- END RSVP -->
 
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.houseofplants.plants &nbsp;| &nbsp; &copy; 2022
 		</div>
 		<!-- END FOOTER --> 
