@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -13,22 +13,20 @@
   <body>
 
     <div class="container">
-
-
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
             
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">About</a>
+                  <a class="nav-link text-light" href="#accommodations">About</a>
+                 </li>
+                <li class="nav-item active">
+                <a class="nav-link text-light" href="#showtimes">Showtimes</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">Showtimes</a>
+                  <a class="nav-link text-light" href="#deals">Deals</a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">Deals</a>
-                </li>
-            </ul>
+                </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search">
                 <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
@@ -47,16 +45,16 @@
                 <div class="row">
                 <div class="col-sm">
                 
-                    <img class="image-fluid" src="./img/portland_1.jpg" alt=""/>
+                    <img class="img-fluid" src="./img/portland_1.jpg" alt=""/>
 
 
                 </div>
                 <div class="col-sm">
           
-                    <h3>Accommodations:</h3>
-                    <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959</p>
+                    <h3 id="accommodations">Accommodations:</h3>
+                    <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
                     <p>Showing our guests a great time is our passion and seeing their smiles is our pleasure!</p>
-                    <p>All of our auditoriums are equipped eith brand new Christie 3D&reg; sound systems!</p>
+                    <p>All of our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
                     <p>Relax in our, extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly &#9855;.</p>
 
 
@@ -79,11 +77,72 @@
             </div>
         </div>
 
-        <!-- showtimes -->
+    <!-- showtimes -->
+    <h3>Showtimes:</h3>
+        <div class="card-group" id="showtimes">
+            <div class="card">
+                <img class="card-img-top" src="./img/caddyshack.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Caddyshack</h5>
+                    <p>An exclusive golf course has to deal with a brash 
+                        new member and a destructive dancing gopher.</p><br>
+                <span class="badge badge-pill badge-info">12:00</span>
+                <span class="badge badge-pill badge-info">1:30</span>    
+                <span class="badge badge-pill badge-info">3:00</span>
+                <span class="badge badge-pill badge-info">5:30</span>
+                <span class="badge badge-pill badge-info">7:00</span>
+                <span class="badge badge-pill badge-info">9:30</span>
+                </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 minutes ago</small>
+            </div>
+        </div>
+        <div class="card">
+                <img class="card-img-top" src="./img/the_jerk.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">The Jerk</h5>
+                    <p>A simpleminded, sheltered country boy suddenly 
+                        decides to leave his family home to experience life in 
+                        the big city, where his naivete is both his best friend 
+                        and his worst enemy.</p><br>
+                <span class="badge badge-pill badge-info">12:00</span>   
+                <span class="badge badge-pill badge-info">1:30</span>
+                <span class="badge badge-pill badge-info">3:00</span>
+                <span class="badge badge-pill badge-info">5:30</span>
+                <span class="badge badge-pill badge-info">7:00</span>
+                <span class="badge badge-pill badge-info">9:30</span>
+                </div>
+            <div class="card-footer">
+                    <small class="text-muted">Last updated 3 minutes ago</small>
+            </div>
+        </div>
+            <div class="card">
+                <img class="card-img-top" src="./img/spaceballs.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Spaceballs</h5>
+                    <p>A star-pilot for hire and his trusty sidekick must come 
+                        to the rescue of a princess and save Planet Druidia from 
+                        the clutches of the evil Spaceballs.</p>
+                <span class="badge badge-pill badge-info">12:00</span>
+                <span class="badge badge-pill badge-info">1:30</span>    
+                <span class="badge badge-pill badge-info">3:00</span>
+                <span class="badge badge-pill badge-info">5:30</span>
+                <span class="badge badge-pill badge-info">7:30</span>
+                <span class="badge badge-pill badge-info">9:30</span>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 minutes ago</small>
+                </div>
+            </div>
+        </div>
+
+
+
         <!-- /showtimes -->
+        
         <div class="text-center">
             <form>
-                <h1 class="text-primary my-5" >Sign up for Movie Club Rewards</h1>
+                <h1 class="text-primary my-5" id="deals">Sign up for Movie Club Rewards</h1>
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
