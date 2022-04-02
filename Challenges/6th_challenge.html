@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+    <style>
+        body {
+            color:rgb(31, 122, 201);
+        }
+
+        div {
+            height: 200px;
+            width: 50%
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 50%
+            padding: 10px;
+            height: 300px;    
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    </head>
+    <body>
+
+        <h2> These are columns</h2>
+            <div class="row">
+                <div class="column" style="background-color:rgb(195, 240, 169);">
+                <h2>Column A</h2>
+                    <p>This is Column A</p>
+            </div>
+            <div class="column" style="background-color:rgb(133, 221, 111);">
+            <h2>Column B</h2>
+                <p>This is Column B</p>
+            </div>
+            </div>
+
+    </body>
+</html>

@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 800px) {
+p {
+    color: rgb(10, 150, 103);
+}
+   
+
+@media screen and (max-width: 600px) {
+p  {
+    background-color: rgb(198, 245, 105);
+    color: blue;
+   
+    }
+}
