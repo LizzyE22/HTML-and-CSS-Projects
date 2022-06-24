@@ -1,6 +1,6 @@
 # HTML-and-CSS-Projects
-This file has Lizzy's HTML and CSS projects.
-I have now completed the following projects in the HTML and CSS course;
+Here you will find some of Lizzy's HTML and CSS projects.
+Thankyou for taking the time to look at my work!
 
 
 https://github.com/LizzyE22/LizzyE22.github.io
