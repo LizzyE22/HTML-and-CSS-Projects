@@ -1,5 +1,5 @@
 # HTML-and-CSS-Projects
-Here you will find some of Lizzy's HTML and CSS projects.
+Here you will find some of my HTML and CSS projects I completed at the Tech Academy.
 Thank you for taking the time to look at my work!
 
 
